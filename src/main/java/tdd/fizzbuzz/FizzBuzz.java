@@ -7,6 +7,8 @@ public class FizzBuzz {
             return "Fizz";
         }else if (orderNumber % 5 == 0) {
             return "Buzz";
+        }else if (orderNumber % 7 == 0) {
+            return "Whizz";
         }
 
         return String.valueOf(orderNumber);
