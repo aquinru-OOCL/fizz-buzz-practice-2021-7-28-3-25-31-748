@@ -20,4 +20,16 @@ public class FizzBuzzTest {
         //Then
         assertThat(result).isEqualTo("1");
     }
+
+    @Test
+    void should_return_order_number_when_count_off_given_multiple_of_3() {
+        //Given
+        orderNumber = 3;
+
+        //When
+        result = fizzBuzz.countOff(orderNumber);
+
+        //Then
+        assertThat(result).isEqualTo("Fizz");
+    }
 }
