@@ -7,8 +7,9 @@ public class FizzBuzz {
             return "FizzBuzz";
         }else if (orderNumber % 3 == 0 && orderNumber % 7 == 0) {
             return "FizzWhizz";
-        }
-        else if (orderNumber % 3 == 0) {
+        }else if (orderNumber % 5 == 0 && orderNumber % 7 == 0) {
+            return "BuzzWhizz";
+        }else if (orderNumber % 3 == 0) {
             return "Fizz";
         }else if (orderNumber % 5 == 0) {
             return "Buzz";
